@@ -16,5 +16,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
           whoami
-          curl ifconfig.me
+          python3 --version
       - run: echo "🍏 This job's status is ${{ job.status }}."
